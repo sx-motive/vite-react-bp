@@ -1,0 +1,16 @@
+.menu__mobile {
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: $color-black;
+  color: $color-white;
+  z-index: 1;
+  transition: right 0.3s $transition-animation;
+  padding: 6rem $padding-layout;
+  &.close {
+    right: -100%;
+  }
+}
